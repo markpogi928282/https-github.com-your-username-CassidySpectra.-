@@ -1,67 +1,92 @@
-{
-  "FCA": {
-    "region": "PRN",
-    "path": "./ws3-fca/index",
-    "selfListen": false,
-    "selfListenEvent": false,
-    "listenEvents": true,
-    "listenTyping": false,
-    "updatePresence": false,
-    "forceLogin": true,
-    "autoMarkDelivery": false,
-    "autoMarkRead": true,
-    "autoReconnect": true,
-    "online": true,
-    "emitReady": false,
-    "userAgent": "utils.defaultUserAgent",
-    "randomUserAgent": false,
-    "bypassRegion": "PNB"
-  },
-  "railwayTips": "Use USA Oregon as region for railway, and render. ",
-  "knownURL": "https://cassidyredux.onrender.com",
-  "defaultLang": "en",
-  "CASS_WATCH": {
-    "enabled": false,
-    "note": "Cassidy Watch is a powerful file backup system that uses meta.version to track changes to your files. It is highly recommended to keep this enabled."
-  },
-  "autoCreateDB": true,
-  "MongoConfig": {
-    "status": true,
-    "uri": "MONGO_URI"
-  },
-  "discordBotToken": "",
-  "discordClientID": "",
-  "pageAccessToken": "",
-  "pageVerifyToken": "",
-  "noFB": true,
-  "credentials": {
-    "email": "",
-    "password": "",
-    "email_asEnvKey": false,
-    "password_asEnvKey": false,
-    "note": "This is for the bot account, not your main account, if email_asEnvKey or password_asEnvKey is true, it will use the .env key provided in email and password fields, this is helpful when hiding the credentials."
-  },
-  "PREFIX": "#",
-  "ADMINBOT": ["wss:admin", "100075058221244"],
-  "EXTRAPREFIX": ["@"],
-  "MODERATORBOT": ["wss:moderator"],
-  "exitOnError": false,
-  "WEB_PASSWORD": "liaSS-web",
-  "maintenanceMode": false,
-  "noLevelUI": true,
-  "noRibbonUI": false,
-  "logPluginChange": false,
-  "warnWhenNoPrefix": false,
-  "strictNoPrefix": false,
-  "requireRgistration": false,
-  "censorInput": false,
-  "censorOutput": true,
-  "mqttRestart": {
-    "enabled": true,
-    "interval": 3600000
-  },
-  "forceWebUID": false,
-  "disableInflation": true,
-  "standardSpectra": false,
-  "autoGoogleTranslate": ""
-}
+[
+    {
+        "key": "datr",
+        "value": "WEj_Z_oBeSFNv-BrGOQiut9G",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-17T03:42:45.305Z",
+        "lastAccessed": "2025-04-17T03:42:45.306Z"
+    },
+    {
+        "key": "sb",
+        "value": "WEj_Zzx-GEzB54UZWbFYoZUE",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-17T03:42:45.306Z",
+        "lastAccessed": "2025-04-17T03:42:45.306Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61575126230360",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-17T03:42:45.306Z",
+        "lastAccessed": "2025-04-17T03:42:45.306Z"
+    },
+    {
+        "key": "fr",
+        "value": "0qZO4icnre1ArktZw.AWf7MRQePAg9jj090kAoBgCIqovyCmTUJj65NmSDYifScemCSOo.Bn_0hY..AAA.0.0.Bn_0iY.AWckPKEPXX9Ne0UeAAA9gX07OvQ",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-17T03:42:45.306Z",
+        "lastAccessed": "2025-04-17T03:42:45.306Z"
+    },
+    {
+        "key": "xs",
+        "value": "9%3AcoySxvyBXqUfHQ%3A2%3A1744783513%3A-1%3A6765",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-17T03:42:45.306Z",
+        "lastAccessed": "2025-04-17T03:42:45.306Z"
+    },
+    {
+        "key": "wd",
+        "value": "400x800",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-17T03:42:45.306Z",
+        "lastAccessed": "2025-04-17T03:42:45.306Z"
+    },
+    {
+        "key": "locale",
+        "value": "en_US",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-17T03:42:45.306Z",
+        "lastAccessed": "2025-04-17T03:42:45.306Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B800x400x1.8000000715255737",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-17T03:42:45.306Z",
+        "lastAccessed": "2025-04-17T03:42:45.306Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "101623450%3BT%3A29081020",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-17T03:42:45.306Z",
+        "lastAccessed": "2025-04-17T03:42:45.306Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A2790%3Btimestamp%3A1744861212",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-17T03:42:45.306Z",
+        "lastAccessed": "2025-04-17T03:42:45.306Z"
+    }
+]
